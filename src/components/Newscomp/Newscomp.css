@@ -1,0 +1,19 @@
+.news-container{
+    display:flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box{
+  margin: 20px;
+  }
+.news-head {
+  text-align: center;
+  font-family: "Helvetica Neue";
+    font-size: 46px;
+}
+
+@media all and (max-width: 960px) {
+    .news-head{
+        text-align: center;
+    }
+}

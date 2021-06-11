@@ -1,0 +1,107 @@
+.standings-table {
+	margin:0 auto;
+	margin-bottom:60px;
+	
+}
+
+
+.head-table {
+	width: 400px; 
+	
+}
+.head-text {
+	font-size: 32px;
+	font-family:'Arial Narrow';
+	font-family:'Times New Roman', Times, serif ;
+	color:rgb(27, 48, 94);
+}
+
+.head-table img { 
+	width:58px;
+	height:58px;
+}
+table { 
+	width: 400px; 
+	border-collapse: separate;
+	border-spacing: 0; 
+	margin: auto;
+	/* border: 12px solid ;
+	border-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); */
+	box-shadow: 0 30px 40px rgba(0,0,0,.1);
+	
+	}
+tr {
+	background-color:white;
+}
+tr:hover {
+	color: rgb(43, 42, 42);
+	background-color:rgb(241, 238, 238);
+}
+
+th { 
+	background: #6CB4EE;
+	background: linear-gradient(135deg, rgba(69,98,233,1) 7%, rgb(35, 130, 240) 100%);  
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border-right: 1px solid #bbb;
+  	border-bottom: 1px solid #bbb;
+	text-align: center; 
+	font-size: 16px;
+	}
+
+table img { 
+	float: left; 
+	width:24px;
+	height: 24px;
+	margin-right:8px;
+}
+.head-table-long { 
+	width: 80%;
+}
+.head-table-long .head-text {
+	font-size: 64px;
+	margin: 20px 0 40px 80px;
+}
+.head-table-long img { 
+	float: left;
+	width:128px;
+	height:128px;
+}
+.standings-table-long table { 
+	width: 80%;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+
+
+/* top-left border-radius */
+/* table tr:first-child th:first-child {
+	border-top-left-radius: 12px;
+  }
+  
+  /* top-right border-radius */
+  /* table tr:first-child th:last-child {
+	border-top-right-radius: 12px;
+  } */ 
+
+
+  @media all and (max-width:1320px) {
+	  .head-table {
+		  margin: auto;
+	  }
+	  .head-table:not(.head-table-long){
+		text-align:center;
+	}
+
+	  .head-text {
+		font-size: 32px;
+	}
+  }

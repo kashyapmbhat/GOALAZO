@@ -1,0 +1,89 @@
+.tp-table {
+	margin:0 auto;
+	margin-bottom:60px;
+    margin-right: 20px;
+	
+}
+
+
+.tp-head-table {
+	width: 400px; 
+	
+}
+.tp-head-text {
+	font-size: 32px;
+	font-family:'Arial Narrow';
+	font-family:'Times New Roman', Times, serif ;
+	color:rgb(27, 48, 94);
+    margin:12px;
+}
+
+.tp-table table { 
+	width: 400px; 
+	border-collapse:separate;
+	/* border-spacing:0 8px;  */
+	margin: auto;
+	/* border: 12px solid ;
+	border-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); */
+	box-shadow: 0 30px 40px rgba(17, 68, 235, 0.1);
+	
+	}
+p-table tr:hover {
+	color: rgb(43, 42, 42);
+    background: rgb(222,235,255);
+    background: linear-gradient(0deg, rgba(222,235,255,0.5004202364539565) 0%, rgba(218,230,255,0.5928572112438726) 100%); 
+}
+
+.tp-table th { 
+    background: rgb(14,114,255);
+    background: linear-gradient(0deg, rgba(14,114,255,1) 0%, rgba(23,53,115,1) 100%); 
+    color: white; 
+	font-weight: bold; 
+	}
+
+    .tp-table td, th { 
+	padding: 10px; 
+    padding-top:14px;
+	border-right:none;
+  	border-bottom: 1px solid #bbb;
+	text-align: center; 
+	font-size: 16px;
+	}
+
+    .tp-table table img { 
+	float: left; 
+	width:24px;
+	height: 24px;
+	margin-right:8px;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+
+
+/* top-left border-radius */
+/* table tr:first-child th:first-child {
+	border-top-left-radius: 12px;
+  }
+  
+  /* top-right border-radius */
+  /* table tr:first-child th:last-child {
+	border-top-right-radius: 12px;
+  } */ 
+
+
+  @media all and (max-width:1320px) {
+	  .tp-head-table {
+		  margin: auto;
+	  }
+	  .tp-head-table:not(.tp-head-table-long){
+		text-align:center;
+	}
+
+	  .tp-head-text {
+		font-size: 32px;
+	}
+  }

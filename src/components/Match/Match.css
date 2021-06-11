@@ -1,0 +1,66 @@
+.match-container, .match-result{
+    display:flex;
+
+    justify-content:center;
+    
+}
+
+.match-container {
+    background-color: rgb(14, 83, 153);
+    /* background: rgb(78,103,126);
+    background: linear-gradient(90deg, rgba(78,103,126,1) 0%, rgba(11,78,143,1) 39%, rgba(12,82,152,1) 100%);  */
+    border-radius: 6px;
+    margin: 8px;
+    color: aliceblue;
+    /* text-transform: uppercase; */
+}
+
+.match-container:hover{
+    background-color: rgb(12, 71, 131);
+    /* background: rgb(60,95,133);
+    background: linear-gradient(90deg, rgba(60,95,133,1) 0%, rgba(9,65,120,1) 41%, rgba(10,66,122,1) 100%);  */
+}
+
+.match-timestamp {
+    width: 20%;
+    font-size: 12px;
+    margin: 12px;
+}
+
+.team-name, .team-logo-container, .result{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto 8px;
+}
+
+
+.match-result{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+}
+
+.team-logo{
+    width:24px;
+    height: 24px;
+}
+
+.result {
+    font-size: 32px;
+    /* margin-left: 4px;
+    margin-right: 4px; */
+}
+
+.team-name {
+    width: 98px;
+}
+
+.team-name-left{
+    text-align:right;
+    margin-right:2px;
+}
+
+.team-name-right{
+    text-align:left;
+    margin-left:2px;
+}

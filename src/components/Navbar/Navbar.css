@@ -1,0 +1,117 @@
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+nav {
+  background: #222;
+  padding: 0 15px;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu{   
+  list-style-type: none;
+}
+.logo{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 7.5px 10px 7.5px 0;
+}
+.item {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.item.button {
+  padding: 9px 5px;
+}
+.item a:hover,
+.item a:hover::after {
+  color: rgb(146, 143, 143);
+}
+
+.button a:hover,
+.button a:hover::after {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.a {
+  display: block;
+  padding: 15px 5px;
+}
+
+.toggle {
+  order: 1;
+  font-size: 20px;
+}
+.item.button {
+  order: 2;
+}
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.active .item {
+  display: block;
+}
+.button{ /* divider between buttons and menu links */
+  border-bottom: 1px #444 solid;
+}
+
+.logo .a {
+  color: rgb(241, 130, 40);
+  /* color:#FF4B2B; */
+}
+
+.activ {
+  color:rgb(241, 130, 40);
+  font-weight:bold;
+}
+
+/* Desktop menu */
+@media all and (min-width: 960px) {
+  .menu {
+      align-items:stretch;    
+      justify-content: flex-end; 
+      flex-wrap: nowrap;
+      background: none;
+  }
+  .logo {
+      order: 0;
+      margin-right: auto;
+  }
+  .item {
+      order: 1;
+      position: relative;
+      display: block; 
+      width: auto;
+  }
+  .button {
+      order: 2;
+      width: 7%;
+  }
+  .toggle {
+      display: none;
+  }
+}

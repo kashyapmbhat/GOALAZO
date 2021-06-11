@@ -1,0 +1,28 @@
+.fixture-container {
+    width: 500px;
+}
+
+.fixture-header {
+    margin: 8px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(72, 28, 145);
+}
+
+.fixtures-logo{
+
+    width:54px;
+    height:54px;
+}
+
+.fixtures-page .head-text{
+    height: 54px;
+}
+
+.fixtures-page .head-text img{
+    float: left;
+}
+
+.fixtures-page{
+    margin-top:60px;
+}

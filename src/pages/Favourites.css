@@ -1,0 +1,16 @@
+.fav-container{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.left-fav-container{
+    flex:3;
+}
+
+.card-field{
+    margin: 60px auto;
+    flex:2;
+}
+

@@ -1,0 +1,135 @@
+
+.tc-container{
+    margin:0 auto;
+    margin-top: 40px;
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 5px solid rgb(0, 105, 224);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(206,206,206,1) 100%);
+    font-size: 18pt;
+    justify-content: space-around;
+    transition: 0.2s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.tc-container:hover{
+    border: 6px solid orange;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.tc-container h1{
+    font-size: 22pt;   
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row1{
+    height:140px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    background: rgb(11,86,233);
+background: linear-gradient(0deg, rgba(11,86,233,1) 0%, rgba(66,121,230,1) 78%);
+    margin: 10px 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 8px 8px 10px #8f8f8f;
+    transition: .5s;
+}
+.row1:hover{
+    color: #ffffff;
+    /* box-shadow: 8px 8px 10px #0b85f8; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-shadow: 0 0 5px #b9b9b9;
+}
+.wins{
+    margin: auto 0;
+flex: 1;
+order: 1;
+}
+
+
+.draws{
+    margin: auto 0;
+flex: 1;
+order:2;
+}
+.loses{
+    margin: auto 0;
+flex: 1;
+order: 3;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    transition: 0.5s;
+    
+}
+.row2:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.tc-container h2{
+    font-size: 22pt;
+}
+.country{
+    flex: 1;
+    order: 1;
+    
+}
+.image{
+    flex: 1;
+    order: 2;
+    
+}
+.form{
+    flex: 1;
+    order: 3;
+   
+}
+.tc-container progress{
+    width: 160px;
+
+}
+.row3{
+    height:140px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    background: rgb(11,86,233);
+    background: linear-gradient(0deg, rgba(11,86,233,1) 0%, rgba(66,121,230,1) 78%);
+    color: white;
+    box-shadow: 8px 8px 10px #8f8f8f;
+    margin: 10px 10px;
+    transition: .5s;
+}
+.row3:hover{
+    color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-shadow: 0 0 5px #b9b9b9;
+}
+.goals{
+    margin: auto 0;
+    order: 1;
+}
+.played{
+    margin: auto 0;
+order: 2;  
+}
+.penalty{
+    margin: auto 0;
+    order: 3;
+}
+
+.image img{
+    width: 100px;
+    height: 100px;
+    
+}

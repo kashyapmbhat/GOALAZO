@@ -1,0 +1,36 @@
+
+.home-container{
+    /* background: #c0392b;   */
+    /* background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);   */
+    /* background: linear-gradient(to right, #8e44ad, #c0392b);  */
+
+    display:flex;
+    padding: 20px;
+  }
+
+  .news{
+      margin: 10px;
+      margin-right: 18px;
+      border-radius: 5px;
+      
+      flex:8;
+  }
+  .side-bar{
+        margin: 10px;
+        margin-left: 18px;
+      flex:2;
+  }
+
+  @media all and (max-width:1320px) {
+      .home-container {
+          flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .side-bar {
+          order: 1;
+      }
+    .news {
+        order: 2;
+    }
+}

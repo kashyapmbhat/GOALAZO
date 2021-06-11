@@ -1,0 +1,5 @@
+.ls-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
